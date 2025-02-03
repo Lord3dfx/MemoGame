@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MemoGame/static/css/main.6418e96c.css",
+    "main.js": "/MemoGame/static/js/main.ee89f951.js",
+    "index.html": "/MemoGame/index.html",
+    "main.6418e96c.css.map": "/MemoGame/static/css/main.6418e96c.css.map",
+    "main.ee89f951.js.map": "/MemoGame/static/js/main.ee89f951.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6418e96c.css",
+    "static/js/main.ee89f951.js"
+  ]
+}
