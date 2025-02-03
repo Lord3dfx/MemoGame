@@ -26,7 +26,8 @@ export default function Table(props) {
 	useEffect(() => {
 		setCards(props.cards)
 		setMatched(Object.keys(props.cards).map(key => parseInt(key)))
-	},[]);
+	},// eslint-disable-next-line
+		[]);
 
 	useEffect(() => {
 		if(gameOver){
@@ -47,7 +48,8 @@ export default function Table(props) {
 			setGameOver(true)
 			setMatched(Object.keys(props.cards).map(key => parseInt(key)))
 		}
-	}, [matched, cards, tryCount]);
+	}, // eslint-disable-next-line
+		[matched, cards, tryCount]);
 
 	const openCard = (index) => {
 			if(openedCards.length === 2){
